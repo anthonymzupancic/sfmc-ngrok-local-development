@@ -1,0 +1,16 @@
+{
+  "name": "ngrok-test",
+  "version": "1.0.0",
+  "description": "Local Development for SFMC CloudPages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Zupancic",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ngrok": "^4.3.0",
+    "nodemon": "^2.0.15"
+  }
+}

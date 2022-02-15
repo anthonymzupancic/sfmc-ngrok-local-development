@@ -1,0 +1,11 @@
+%%[
+    if EMPTY(RequestParameter('t')) then
+]%%
+
+Enter Tunnel Parameter 't'
+
+%%[else]%%
+
+    %%=TreatAsContent(HTTPGet(Concat('https://',RequestParameter("t"),'.ngrok.io/')))=%%
+
+%%[endif]%%
